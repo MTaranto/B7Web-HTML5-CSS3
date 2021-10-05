@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box ;
+}
+
+body {
+  margin: 50px;
+  font-size: large;
+}
+h1 {
+  color: darkblue;
+  font-size: 50px;
+  font-weight: normal;
+  font-family: Arial; /*fonte externa - Google Fonts*/
+  text-shadow: 0px 2px 3px black; /* 1-direita 2-baixo 3-esfumaçamento 4-cor */
+  font-family: 'Ephesis', cursive;
+}
+
+p {
+  color: darkblue;
+  font-size: 30px;
+  font-weight: normal;
+/*font-family: Arial; */
+  font-family: 'Ephesis', cursive; /*fonte externa - Google Fonts*/
+  text-align: justify;
+/*letter-spacing: 2px;
+  word-spacing: 10px;
+*/line-height: 30px;
+  text-shadow: 0px 2px 3px black; /* 1-direita 2-baixo 3-esfumaçamento 4-cor */
+}
+
+p:hover {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

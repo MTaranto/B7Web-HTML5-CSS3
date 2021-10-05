@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Aula HTML5 e CSS3</title>
+  <link rel="stylesheet" href="form2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Página de Formulários 2</h1>
+
+  <form action="" method="POST" enctype="multipart/form-data">
+
+    <input type="hidden" name="country" value="BR" id="">
+    <fieldset> 
+      <legend>Dados Pessoais</legend>
+      <label>
+        Primeiro Nome: <br>
+        <input type="text" name="name" required minlength="2">
+      </label>
+      <label>
+        Sobrenome: <br>
+        <input type="text" name="lastname">
+      </label>
+      <label>
+        E-mail: <br>
+        <input type="text" name="email" pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" title="endereço de email" required>
+      </label>
+      <label>
+        Idade: <br>
+        <input type="number" name="age" min="18" max="120">
+      </label>
+      <label>
+        Data de Nascimento: <br>
+        <input type="date" name="birthday" required>
+      </label>
+      </label>
+      <label>
+        Foto: <br>
+        <input type="file" name="photo" accept="image/*">
+      </label>
+
+    </fieldset>
+    <fieldset>
+      <legend>Dados Profissionais</legend>
+      <label>
+        Empresa: <br>
+        <input type="text" name="companyname">
+      </label>
+      <label>
+        Cargo: <br>
+        <input type="text" name="jobtitle">
+      </label>
+    </fieldset>
+    <input type="submit" value="Cadastrar">
+  </form>
+</body>
+</html>

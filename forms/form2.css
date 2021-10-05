@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box ;
+}
+h1 {
+  font-family: 'Gemunu Libre', sans-serif;
+}
+body {
+  margin: 50px;
+}
+
+fieldset {
+  background-color: rgb(207, 238, 207);
+  margin-bottom: 20px;
+  border: 2px solid green;
+}
+
+legend {
+  background-color: green;
+  color: #fff;
+  padding: 5px;
+}
+label {
+  display: block; /* separa os labels em blocos como se fossem divs.*/
+margin-bottom: 10px;
+}
