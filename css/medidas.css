@@ -1,0 +1,23 @@
+html {
+  font-size: 20px;
+}
+body {
+  margin: 30px;
+  font-size: 2em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+.box {
+  font-size: 1rem;
+}
+
+.box-interno{
+ width: 12em;
+ height: 12em;
+ background-color: powderblue;
+ padding: 10px;
+}
+
+/* 1 in = 2,54cm = 25,4mm = 72pt = 6pc */

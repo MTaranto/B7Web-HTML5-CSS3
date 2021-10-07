@@ -1,0 +1,21 @@
+body {
+  margin: 30px;
+  color: palevioletred;
+}
+
+.container {
+  width: calc(100% - 20px);
+  height: 200px;
+  background-color: lightblue;
+
+  color: blue;
+  font-size: 30px;
+  border: 3px solid green; /*propriedade não herdada*/
+}
+
+/* normalmente, propriedades herdadas estão ligadas
+ao texto. Propriedades de estruturas, geralmente não são */
+
+.container strong {
+  color: maroon;
+}
