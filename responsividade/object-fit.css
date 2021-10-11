@@ -1,0 +1,5 @@
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain; /* cover, none, contain, scale-down são as mais usadas*/
+}

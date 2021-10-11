@@ -1,0 +1,53 @@
+body {
+  background-color: green;
+}
+h1 {font-size: 15px;
+}
+
+table, td {
+  border: 2px solid black;
+}
+
+@media print {
+  
+  h1 {
+    /*display: none;*/
+    font-weight: normal;
+    font-style: italic;
+    font-size: 70px;
+  }
+
+  table, td {
+    border: 0;
+  }
+}
+
+@media (min-width:1000px) {
+  body {
+    background-color: blueviolet
+   }
+   h1 {
+     font-size: 40px;
+   }
+}
+
+@media (min-width:700px) and (max-width:999px) {
+  body {
+    background-color: coral;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
+/*
+@media (min-width: 400px) and (max-width:699px) {
+
+  body {
+    background-color: aquamarine;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+ 
+}*/
