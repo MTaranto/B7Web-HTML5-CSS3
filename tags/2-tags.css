@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+section {
+  background-color: #ccc;
+  padding: 10px;
+}
+article {
+  background-color: antiquewhite;
+  padding: 10px;
+}
+aside {
+  background-color: burlywood;
+  padding: 10px;
+}
+time {
+  background-color: gainsboro;
+  color: forestgreen;
+  padding: 10px;
+}

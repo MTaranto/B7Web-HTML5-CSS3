@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  margin-top: 0;
+}
+header {
+  background-color: green;
+  min-height: 100px;
+}
+.container {
+  display: flex;
+  min-height: 600px;
+}
+aside {
+  width: 200px;
+  background-color: limegreen;
+}
+main {
+  padding: 50px;
+  flex: 1;
+  background-color: lightgreen;
+}
+footer {
+  background-color: green;
+  min-height: 100px;
+  padding: 20px;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: aquamarine;
+}
+h2 {
+  position: absolute;
+  padding: 10px;
+text-shadow: 2px 2px 2px #444;}

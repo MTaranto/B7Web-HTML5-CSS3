@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+#teste {
+  background-color: green;
+  margin-left: 100px;
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  color: white;
+}
+p {
+  padding: 30px;
+}
+.exemplo {
+  color: white;
+  width: 500px;
+  height: 200px;
+  background: blue;
+  background: linear-gradient(-75deg, white, blue);
+  /* Define-se a direção do degradrê com o angulo */
+}

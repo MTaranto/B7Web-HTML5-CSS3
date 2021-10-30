@@ -1,0 +1,17 @@
+@keyframes exemplo {
+  0% {background-color: red;top: 80px;left: 0;}
+  25% {background-color: yellow;border-radius: 33px;top: 80px;left: 200px;}
+  50% {background-color: blue;border-radius: 66px;top: 250px;left: 200px;}
+  75% {background-color: green;border-radius: 100px;top: 250px;left: 0;}
+  100% {background-color: red;border-radius: 0;top: 80px;left: 0;}
+}
+body {
+  margin: 0;
+}
+.exemplo {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  animation: exemplo 2s infinite;
+}

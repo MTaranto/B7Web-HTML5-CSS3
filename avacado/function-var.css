@@ -1,0 +1,27 @@
+:root {
+  --bg-color: black;
+  --bg-second: #444;
+  --font-color: #fff;
+  --font-size: 25px;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-size: var(--font-size);
+}
+
+h1 {
+  color: var(--font-color);
+}
+
+.container {
+  background-color: var(--bg-second);
+  color: var(--font-color, #00f); /*valor colocado após a vírgula passa a valer se a variável não existir*/
+  padding: 5px;
+}
+
+@media (max-width: 450px) {
+  :root {
+    --font-size: 15px;
+  }
+}

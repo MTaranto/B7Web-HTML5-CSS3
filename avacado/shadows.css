@@ -1,0 +1,14 @@
+.exemplo {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  background-color: green;
+  box-shadow: 7px 7px 7px grey;
+  border-radius: 25px;
+}
+.texto {
+  margin: 20px;
+  font-size: 50px;
+  color: green;
+  text-shadow: 4px 3px 3px grey;
+}
