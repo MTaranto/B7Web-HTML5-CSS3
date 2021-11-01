@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  background-color: #dddddd;
+  margin: 10px;
+}
+.container2 {
+  height: 400px;
+  display: flex;
+  justify-content: center; /* Alinha no meio da div (na direção da exibição) */
+  align-items: center; /* Alinha no meio da div (na direção contrária a exibição) */
+  background-color: #dddddd;
+  margin: 10px;
+}
+.div1 {
+  flex: 1;
+  background-color: forestgreen;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+.div2 {
+  flex: 2; /* o numero corresponde à proporção do tamanho entre os boxes */
+  background-color: forestgreen;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+.div3 {
+  flex: 0.5;
+  background-color: forestgreen;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+.div4 {
+  width: 100px;
+  height: 100px;
+  background-color: limegreen;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+.div5 {
+  width: 100px;
+  height: 100px;
+  background-color: limegreen;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+.div6 {
+  width: 100px;
+  height: 100px;
+  background-color: limegreen;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
