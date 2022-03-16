@@ -1,0 +1,35 @@
+input, a {
+  display: block;
+}
+
+/* colocar entre chaves para selecionar por atributo*/
+[required] {
+  background-color: green;
+}
+
+/* também poderia ser
+input[required] {
+  background-color: green;
+} */
+
+input[type=password] {
+  background-color: blue;
+}
+input[name=endereco] {
+  background-color: gold;
+}
+
+/* selecionado por atributo que contenha uma palavra ou parte */
+a[href*=futebol] {
+  background-color: lightgreen;
+}
+
+/* por abributos que comecem com ...  */
+a[href^="https://goo"] {   /* esse precisa por "" */
+background-color: lightskyblue;
+}
+
+/* por abributos que terminem com ...  */
+a[href$="mercado/"] {
+  background-color: lightslategray;
+}

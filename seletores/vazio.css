@@ -1,0 +1,9 @@
+div {
+  margin: 20px;
+  height: 30px;
+}
+
+/* Seletor de espaço vazio */ 
+div:empty {  /* também funciona com somente :empty */
+  background-color: lightskyblue;
+}

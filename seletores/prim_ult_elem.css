@@ -1,0 +1,21 @@
+div {
+  margin-left: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+div:first-child {
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+}
+div:last-child {
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+
+div:nth-child(even) {
+  background-color: greenyellow;
+}
+div:nth-child(odd) {
+  background-color: blueviolet;
+}

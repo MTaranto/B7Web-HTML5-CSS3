@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+}
+div {
+  padding: 40px;
+}
+.normal {
+  background-color: yellow;
+}
+.normal::before {
+  content: "->";
+  font-size: 20px;
+}
+.normal::after {
+  content: "*";
+}
+.square::before {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+}
+.balao {
+  content:"";
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* criando uma setinha para o balão (texto falado) */
+.balao::after {
+  content:"";
+  display: block;
+  position: absolute;
+  margin-top: 20px; /* margin da mesma altura do elemento 
+                        para que ele apareça fora do balão */
+  border: 10px solid;
+  border-color: blue transparent transparent transparent;
+  margin-left: -4px;
+}
+.balaoteste {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* criando uma setinha para o balão (texto falado) */
+.balaoteste::after {
+  content:'';
+  display: block;
+  position: absolute;
+  margin-top: 20px; /* margin da mesma altura do elemento 
+                        para que ele apareça fora do balão */
+  border: 8px solid;
+  border-color: blue transparent transparent blue;
+  margin-left: -4px;
+}
+.setaadireita {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* criando uma setinha para o balão (texto falado) */
+.setaadireita::after {
+  content:'';
+  display: inline-block;
+  position: absolute;
+  margin-left: 20px; /* margin da mesma altura do elemento 
+                        para que ele apareça fora do balão */
+  border: 8px solid;
+  border-color: blue transparent transparent blue;
+}
