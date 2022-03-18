@@ -1,0 +1,13 @@
+body {
+  background-image:url('workspace_laptop.jpg');
+  background-size: cover;
+}
+div {
+  background-color: rgba(0, 0, 0, 0.5); /* o 4° item define a transparência
+  que vai de 0 até 1 */
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

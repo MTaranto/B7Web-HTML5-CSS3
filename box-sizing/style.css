@@ -1,0 +1,9 @@
+div {
+  width: 200px;
+  height:200px;
+  background-color: cornflowerblue;
+  border: solid 10px coral;
+  box-sizing: border-box; /* Utilizando esse parâmetro
+          o box mantem o tamanho especificado de altura e largura. */
+  padding: 38px;
+}

@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+}
+body {
+  margin-top:100px;
+  display:flex;
+}
+.div1 {
+  width: 150px;
+  height: 150px;
+  background-color: aqua;
+  margin: auto;
+  transform: scale(0.5);
+  text-align: center;
+}
+.div2 {
+  width: 150px;
+  height: 150px;
+  background-color: cadetblue;
+  margin: auto;
+  transform: rotate(30deg);
+  text-align: center;
+}
+.div3 {
+  width: 150px;
+  height: 150px;
+  background-color: lightgreen;
+  margin: auto;
+  transform: skew(20deg);
+  text-align: center;
+}
+.div4 {
+  width: 150px;
+  height: 150px;
+  background-color: limegreen;
+  margin: auto;
+  transform: skewy(20deg);
+  text-align: center;
+}
+.div5 {
+  width: 150px;
+  height: 150px;
+  background-color: brown;
+  margin: auto;
+  transform: skew(-20deg, -20deg);
+  text-align: center;
+}
+.div6 {
+  width: 150px;
+  height: 150px;
+  background-color: darkcyan;
+  margin: auto;
+  transform: rotatey(45deg);
+  text-align: center;
+}
